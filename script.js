@@ -48,7 +48,7 @@ $(function () {
     var tweetArea = document.getElementById('tweet-area');
    
   // tweetボタンの生成
-  generate_tweet_button(tweetArea, 'https://kscomac.github.io/media_upload/' + imgs[now]+ '.html', '占い', 'ああ', '結果をツイートする<br>【Twitter投稿画面が開きます】');
+  generate_tweet_button(tweetArea, 'https://kscomac.github.io/maru/' + imgs[now]+ '.html', '占い', 'ああ', '結果をツイートする<br>【Twitter投稿画面が開きます】');
    
   // tweetボタンを生成する関数ß
   function generate_tweet_button(area, url, hashtags, text, tweet) {
