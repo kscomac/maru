@@ -1,0 +1,5 @@
+# HTMLでphp使用
+AddHandler application/x-httpd-php .php .html
+
+# /にアクセスした時index.htmlを参照
+DirectoryIndex index.html
