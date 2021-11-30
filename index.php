@@ -24,25 +24,11 @@ if (isset($_GET['result']) && is_numeric($_GET['result']) && $_GET['result'] >= 
     <meta name="twitter:description" content="いつでもどこでも「鮮度みそ占い」キャンペーン 占い結果をツイートで総勢100名様に「巨大！鮮度みそクッション」などが当たる！！" />
     <meta name="twitter:image" content="https://kscomac.github.io/maru/img01.jpg">
     <meta name="twitter:url" content="https://kscomac.github.io/maru/index.php?result=1">
-<?php }else{ ?>
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="サイトネーム">
-    <meta property="og:title" content="タイトル">
-    <meta property="og:description" content="デフォルトのディスクリプション">
-    <meta property="og:image" content="https://testooooooooooooo.co.jp/images/ogp.jpg">
-    <meta property="og:url" content="https://testooooooooooooo.co.jp/index.php">
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="サイトネーム" />
-    <meta name="twitter:title" content="タイトル" />
-    <meta name="twitter:description" content="デフォルトのディスクリプション" />
-    <meta name="twitter:image" content="https://testooooooooooooo.co.jp/images/ogp.jpg">
-    <meta name="twitter:url" content="https://testooooooooooooo.co.jp/index.php">
 <?php } ?>
 </head>
 <body>
 <!-- シェアがクリックされた際、このURLに飛ぶ -->
  <script type="text/javascript">
-  // トップページのURLが一般的
-  location.href = "https://www.marusanai.co.jp/";
+  location.href = "http://localhost/cp_miso_202112";
  </script>
 </body>
