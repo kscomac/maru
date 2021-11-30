@@ -3,32 +3,46 @@
     <head>
 <?php
 $min = 1;
-$max = 2;
+$max = 9;
 if (isset($_GET['result']) && is_numeric($_GET['result']) && $_GET['result'] >= $min && $_GET['result'] <= $max) {
     $result = $_GET['result'];
     if ($result == 1) {
-        $pic = "img01";
+        $pic = "img_omikuji01";
     } else if ($result == 2) {
         $pic = "img_omikuji02";
+    } else if ($result == 3) {
+        $pic = "img_omikuji03";
+    } else if ($result == 4) {
+        $pic = "img_omikuji04";
+    } else if ($result == 5 {
+        $pic = "img_omikuji05";
+    } else if ($result == 6) {
+        $pic = "img_omikuji06";
+    } else if ($result == 7) {
+        $pic = "img_omikuji07";
+    } else if ($result == 8) {
+        $pic = "img_omikuji08";
+    } else if ($result == 9) {
+        $pic = "img_omikuji09";
     }
     ?>
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="マルサンアイ株式会社｜豆乳と味噌メーカー">
     <meta property="og:title" content="いつでもどこでも「鮮度みそ占い」キャンペーン｜マルサンアイ株式会社">
     <meta property="og:description" content="いつでもどこでも「鮮度みそ占い」キャンペーン 占い結果をツイートで総勢100名様に「巨大！鮮度みそクッション」などが当たる！！">
-    <meta property="og:image" content="https://kscomac.github.io/maru/img01.jpg">
-    <meta property="og:url" content="https://kscomac.github.io/maru/index.php?result=1">
+    <meta property="og:image" content="https://kscomac.github.io/maru/<?php echo $pic ?>.jpg">
+    <meta property="og:url" content="https://kscomac.github.io/maru/ogp.html?result=<?php echo $pic ?>">
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="マルサンアイ株式会社｜豆乳と味噌メーカー" />
+    <!-- <meta name="twitter:site" content="@shinoha58653024" /> -->
     <meta name="twitter:title" content="いつでもどこでも「鮮度みそ占い」キャンペーン｜マルサンアイ株式会社" />
     <meta name="twitter:description" content="いつでもどこでも「鮮度みそ占い」キャンペーン 占い結果をツイートで総勢100名様に「巨大！鮮度みそクッション」などが当たる！！" />
-    <meta name="twitter:image" content="https://kscomac.github.io/maru/img01.jpg">
-    <meta name="twitter:url" content="https://kscomac.github.io/maru/index.php?result=1">
+    <meta name="twitter:image" content="https://kscomac.github.io/maru/<?php echo $pic ?>.jpg">
+    <meta name="twitter:url" content="https://kscomac.github.io/maru/ogp.html?result=<?php echo $result ?>">
 <?php } ?>
 </head>
 <body>
 <!-- シェアがクリックされた際、このURLに飛ぶ -->
  <script type="text/javascript">
-  location.href = "https://www.marusanai.co.jp";
+  location.href = "https://kscomac.github.io/maru/index.html";
  </script>
 </body>
