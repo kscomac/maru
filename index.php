@@ -19,7 +19,7 @@ if (isset($_GET['result']) && is_numeric($_GET['result']) && $_GET['result'] >= 
     <meta property="og:image" content="https://kscomac.github.io/maru/<?php echo $pic ?>.jpg">
     <meta property="og:url" content="https://kscomac.github.io/maru/index.php?result=<?php echo $result ?>">
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="マルサンアイ株式会社｜豆乳と味噌メーカー" />
+    <meta name="twitter:site" content="@shinoha58653024" />
     <meta name="twitter:title" content="いつでもどこでも「鮮度みそ占い」キャンペーン｜マルサンアイ株式会社" />
     <meta name="twitter:description" content="いつでもどこでも「鮮度みそ占い」キャンペーン 占い結果をツイートで総勢100名様に「巨大！鮮度みそクッション」などが当たる！！" />
     <meta name="twitter:image" content="https://kscomac.github.io/maru/<?php echo $pic ?>.jpg">
